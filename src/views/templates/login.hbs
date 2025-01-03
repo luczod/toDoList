@@ -1,0 +1,27 @@
+<div id="login-container">
+  <h1>Login</h1>
+  <form class="form-login" action="todo" method="post">
+    <label for="email">E-mail</label>
+    <input type="email" name="email" id="email" placeholder="Digite seu e-email" autocomplete="off"
+      value="{{emailText}}" required />
+    <small>{{msgError.email}}</small>
+    <label for="password">Senha</label>
+    <input type="password" name="password" id="password" placeholder="Digite sua senha" required />
+    <small>{{msgError.password}}</small>
+    {{!-- <a href="#" id="forgot-pass">Esqueceu a senha?</a> --}}
+    <input type="submit" value="Login" />
+  </form>
+  <div id="register-div">
+    <p>Ainda não tem uma conta?</p>
+    <a href="register">Registrar</a>
+  </div>
+  {{#if errorMsg}}
+  <div id="div-msg" data-error="{{errorMsg}}"></div id="div-error">
+  {{/if}}
+</div>
+<script defer nonce="{{nonce}}">
+  let divError = document.getElementById("div-error")
+  if (divError) {
+    swal("Erro!", divErroror.dataset.msg, "error");
+  }
+</script>
