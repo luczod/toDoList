@@ -4,10 +4,10 @@
 
 <table>
   <tr>
-    <td><img src=".github/preview1.png" width="480"/></td>
+    <td><img src=".github/preview1.webp" width="480"/></td>
   </tr>
   <tr>
-    <td><img src=".github/preview2.png" width="480"/></td>
+    <td><img src=".github/preview2.webp" width="480"/></td>
   </tr>
  </table>
 
