@@ -15,6 +15,7 @@
 
 ```bash
 npm i
+npm dev
 ```
 
 ### Tarefas de um futuro próximo
