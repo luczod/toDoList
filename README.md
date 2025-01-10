@@ -14,8 +14,8 @@
 ### Instalação
 
 ```bash
-npm i
-npm dev
+npm install
+npm run dev
 ```
 
 ### Tarefas de um futuro próximo
